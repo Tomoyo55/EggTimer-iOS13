@@ -1,27 +1,51 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+# 🥚 EggTimer
 
-# Egg Timer
+An iOS timer application built with Swift and UIKit.
 
-## Our Goal
+This app allows users to select the hardness of a boiled egg and automatically starts a countdown timer. A progress bar visualizes the remaining cooking time, and an alarm sound is played when the timer finishes.
 
-This module will be a mix of tutorials and challenges. Most importantly, we want you to get comfortable with looking up how to do something you've never done before. In certain places of this module, you’ll need to follow the 5 step process you learnt in the Xylophone module and use Google search, StackOverflow and Apple Documentation to make your code do what you want it to. But there are also other parts where we’ll take you step-by-step through new Swift programming concepts. 
+---
 
-## What You'll Make
+## Demo
 
-You’ll be building a beautiful egg timer app to boil your eggs to perfection depending on how you prefer your eggs. 
+<p align="center">
+  <img src="./Demo/EggTimer.gif" width="300">
+</p>
 
-## What you will learn
+---
 
-* Swift Collection types - Dictionaries
-* The Swift Timer API
-* Conditional statements - IF/ELSE
-* Conditional statements - Switch
-* Functions with outputs
-* How to use the ProgressView
+## Features
 
+- 🥚 Select egg hardness (Soft / Medium / Hard)
+- ⏱ Countdown timer
+- 📊 Progress bar
+- 🔔 Alarm sound when cooking is complete
+- 📱 Simple and intuitive UI
 
+---
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+## Tech Stack
 
-![End Banner](Documentation/readme-end-banner.png)
+- Swift
+- UIKit
+- Xcode
+- AVFoundation
+- Timer
 
+---
+
+## What I Learned
+
+While developing this project, I learned:
+
+- How to use `Timer`
+- UI updates using `IBOutlet`
+- Handling button actions with `IBAction`
+- Playing sounds using `AVFoundation`
+- Managing app state during countdown
+
+---
+
+## Author
+
+Tomoyo
